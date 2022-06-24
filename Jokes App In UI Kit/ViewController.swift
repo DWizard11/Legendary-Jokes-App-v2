@@ -79,10 +79,12 @@ class ViewController: UIViewController {
         
     }
     @IBAction func yesButtonPressed(_ sender: Any) {
-        positiveAlert.addAction(UIAlertAction(title: NSLocalizedString("YAY!", comment: "Default action"), style: .default, handler: { _ in
-        NSLog("The \"positive\" alert occured.")
-        }))
-        self.present(positiveAlert, animated: true, completion: nil)
+        if isPunchlineShown{
+            performSegue(withIdentifier: "correct",
+            sender: nil)
+            currentJoke += 1
+        }
+        isPunchlineShown = false
     }
     @IBAction func noButtonPressed(_ sender: Any) {
         negativeAlert.addAction(UIAlertAction(title: NSLocalizedString("PRESS ME IF HAVE 0 IQ", comment: "Default action"), style: .default, handler: { _ in

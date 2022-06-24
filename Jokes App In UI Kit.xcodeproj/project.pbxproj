@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C318A4A2865638800B510B4 /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C318A492865638800B510B4 /* CongratsViewController.swift */; };
 		4CB366B828616793003397D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB366B728616793003397D7 /* AppDelegate.swift */; };
 		4CB366BA28616793003397D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB366B928616793003397D7 /* SceneDelegate.swift */; };
 		4CB366BC28616793003397D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB366BB28616793003397D7 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C318A492865638800B510B4 /* CongratsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
 		4CB366B428616793003397D7 /* Jokes App In UI Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jokes App In UI Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB366B728616793003397D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CB366B928616793003397D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				4CB366B728616793003397D7 /* AppDelegate.swift */,
 				4CB366B928616793003397D7 /* SceneDelegate.swift */,
 				4CB366BB28616793003397D7 /* ViewController.swift */,
+				4C318A492865638800B510B4 /* CongratsViewController.swift */,
 				4CB366BD28616793003397D7 /* Main.storyboard */,
 				4CB366C028616795003397D7 /* Assets.xcassets */,
 				4CB366C228616795003397D7 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C318A4A2865638800B510B4 /* CongratsViewController.swift in Sources */,
 				4CB366BC28616793003397D7 /* ViewController.swift in Sources */,
 				4CB366B828616793003397D7 /* AppDelegate.swift in Sources */,
 				4CB366E82861DD48003397D7 /* Joke.swift in Sources */,

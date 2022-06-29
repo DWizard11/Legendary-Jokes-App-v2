@@ -137,8 +137,11 @@
     </scenes>
     <resources>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <image name="negative" width="600" height="716"/>
         <image name="positive" width="720" height="432"/>
+=======
+>>>>>>> parent of 0fb97f4 (Added Sheeeeet to show positive feed back when Yes button is pressed)
 =======
 >>>>>>> parent of 0fb97f4 (Added Sheeeeet to show positive feed back when Yes button is pressed)
         <systemColor name="systemBackgroundColor">

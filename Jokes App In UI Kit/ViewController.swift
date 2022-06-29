@@ -80,6 +80,7 @@ class ViewController: UIViewController {
     }
     @IBAction func yesButtonPressed(_ sender: Any) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if isPunchlineShown{
             performSegue(withIdentifier: "correct",
             sender: nil)
@@ -87,10 +88,15 @@ class ViewController: UIViewController {
         }
         
 =======
+=======
+>>>>>>> parent of 0fb97f4 (Added Sheeeeet to show positive feed back when Yes button is pressed)
         positiveAlert.addAction(UIAlertAction(title: NSLocalizedString("YAY!", comment: "Default action"), style: .default, handler: { _ in
         NSLog("The \"positive\" alert occured.")
         }))
         self.present(positiveAlert, animated: true, completion: nil)
+<<<<<<< HEAD
+>>>>>>> parent of 0fb97f4 (Added Sheeeeet to show positive feed back when Yes button is pressed)
+=======
 >>>>>>> parent of 0fb97f4 (Added Sheeeeet to show positive feed back when Yes button is pressed)
     }
     @IBAction func noButtonPressed(_ sender: Any) {
